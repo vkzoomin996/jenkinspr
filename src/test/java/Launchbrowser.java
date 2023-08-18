@@ -9,6 +9,7 @@ public class Launchbrowser {
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://www.facebook.com/login/");
 		System.out.println("navigate to the url successfully");
+		driver.get("https://www.facebook.com/login/");
 	}
 
 }
