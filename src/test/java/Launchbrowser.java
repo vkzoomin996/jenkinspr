@@ -11,6 +11,8 @@ public class Launchbrowser {
 		System.out.println("navigate to the url successfully");
 		driver.get("https://www.zomato.com/login");
 				driver.get("https://www.zomato.com/login");
+				driver.get("https://www.zomato.com/login");
+
 
 	}
 
