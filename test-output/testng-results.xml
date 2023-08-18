@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-18T17:34:29 IST" name="Suite" finished-at="2023-08-18T17:34:29 IST" duration-ms="66">
+    <groups>
+      <group name="smoke">
+        <method signature="TestCase_01.delete()[pri:0, instance:TestCASES.TestCase_01@2df9b86]" name="delete" class="TestCASES.TestCase_01"/>
+        <method signature="TestCase_01.rename()[pri:0, instance:TestCASES.TestCase_01@2df9b86]" name="rename" class="TestCASES.TestCase_01"/>
+        <method signature="TestCase_2.rename()[pri:0, instance:TestCASES.TestCase_2@76c3e77a]" name="rename" class="TestCASES.TestCase_2"/>
+        <method signature="TestCase_3.rename()[pri:0, instance:TestCASES.TestCase_3@581ac8a8]" name="rename" class="TestCASES.TestCase_3"/>
+        <method signature="TestCase_3.update()[pri:0, instance:TestCASES.TestCase_3@581ac8a8]" name="update" class="TestCASES.TestCase_3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-08-18T17:34:29 IST" name="Test" finished-at="2023-08-18T17:34:29 IST" duration-ms="66">
+      <class name="TestCASES.TestCase_01">
+        <test-method signature="delete()[pri:0, instance:TestCASES.TestCase_01@2df9b86]" started-at="2023-08-18T17:34:29 IST" name="delete" finished-at="2023-08-18T17:34:29 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method signature="rename()[pri:0, instance:TestCASES.TestCase_01@2df9b86]" started-at="2023-08-18T17:34:29 IST" name="rename" finished-at="2023-08-18T17:34:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rename -->
+      </class> <!-- TestCASES.TestCase_01 -->
+      <class name="TestCASES.TestCase_3">
+        <test-method signature="rename()[pri:0, instance:TestCASES.TestCase_3@581ac8a8]" started-at="2023-08-18T17:34:29 IST" name="rename" finished-at="2023-08-18T17:34:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rename -->
+        <test-method signature="update()[pri:0, instance:TestCASES.TestCase_3@581ac8a8]" started-at="2023-08-18T17:34:29 IST" name="update" finished-at="2023-08-18T17:34:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+      </class> <!-- TestCASES.TestCase_3 -->
+      <class name="TestCASES.TestCase_2">
+        <test-method signature="rename()[pri:0, instance:TestCASES.TestCase_2@76c3e77a]" started-at="2023-08-18T17:34:29 IST" name="rename" finished-at="2023-08-18T17:34:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rename -->
+      </class> <!-- TestCASES.TestCase_2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
